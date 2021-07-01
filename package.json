@@ -1,0 +1,29 @@
+{
+  "name": "babel-plugin-lessimport",
+  "version": "0.0.4",
+  "description": "babel plugin",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "vandvassily",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/types": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-lessimport": "^0.0.3",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-loader": "^2.1.2",
+    "minimize": "^2.2.0",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "core-js": "3",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2"
+  }
+}

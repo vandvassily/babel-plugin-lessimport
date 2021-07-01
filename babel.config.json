@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "edge": "17",
+          "firefox": "60",
+          "chrome": "80",
+          "safari": "11.1",
+          "ios": "11"
+        },
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "lessimport",
+      {
+        "libraryName": "lodash"
+      }
+    ]
+  ]
+}
