@@ -1,10 +1,14 @@
 {
   "name": "babel-plugin-lessimport",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "babel plugin",
   "main": "./src/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandvassily/babel-plugin-lessimport.git"
   },
   "author": "vandvassily",
   "license": "MIT",
